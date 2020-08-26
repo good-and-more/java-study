@@ -1,5 +1,5 @@
 package cn.itcast.day04.demo04;
-
+//方法相同，参数列表不同的方法，可以触发方法重载
 public class Demo04OverloadPrint {
     public static void main(String[] args) {
       myPrint(12);
