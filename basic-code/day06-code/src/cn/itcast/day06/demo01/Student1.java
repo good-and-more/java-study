@@ -10,7 +10,7 @@ package cn.itcast.day06.demo01;
 *   public void study(){}
 *
 * */
-public class Student {
+public class Student1 {
     String name;
     int age;
 
