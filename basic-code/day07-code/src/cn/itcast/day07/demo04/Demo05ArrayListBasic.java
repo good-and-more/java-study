@@ -7,10 +7,11 @@ public class Demo05ArrayListBasic {
         ArrayList<String> listA = new ArrayList<>();
         //错误写法，泛型只能是引用类型，不能是基本类型,因为集合里保存的是地址值，基本数据类型没有地址值
         //ArrayList<int> listB = new ArrayList<>();
-        ArrayList<Integer> listB = new ArrayList<>();
+        ArrayList<Integer> listB = new ArrayList<>();//需要用包装类型，自动装箱，取出的时候会自动拆箱
         listB.add(100);
         listB.add(200);
-        System.out.println(listB.get(0));
+        int num = listB.get(0);
+        System.out.println(num);
     }
 
 }
