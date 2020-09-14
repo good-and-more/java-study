@@ -3,7 +3,7 @@ package cn.itcast.day09.demo05;
 public class Zi extends Fu {
     int num = 20;
 
-    @Override//注解，不是注释
+    @Override//注解，不是注释，可以检测是否正确
     public void method() {
         System.out.println("子类方法调用");
     }

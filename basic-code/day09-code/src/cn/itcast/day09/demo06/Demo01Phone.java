@@ -11,7 +11,7 @@ public class Demo01Phone {
         NewPhone newPhone = new NewPhone();
         newPhone.call();
         newPhone.send();
-        newPhone.show();
+        newPhone.show();//调用的子类方法同样是show，但是发生了重写，多显示姓名和头像
     }
 
 }
