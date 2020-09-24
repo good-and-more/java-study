@@ -1,0 +1,17 @@
+package cn.itcast.day10.demo02;
+
+public interface MyInterfaceA {
+//    static {
+//
+//    }
+    //接口不能有静态代码块和构造方法
+    //public MyInterfaceA() {}
+
+    public abstract void methodA();
+
+    public abstract void methodAbs();
+
+    public default void methodDefault() {
+        System.out.println("aaa");
+    }
+}
