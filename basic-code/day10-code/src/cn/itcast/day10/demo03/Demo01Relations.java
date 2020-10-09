@@ -7,4 +7,9 @@ package cn.itcast.day10.demo03;
 * 多个父接口中的抽象方法冲突，没问题
 * 多个父接口中的默认方法冲突，有不同的方法体，子接口必须进行默认方法的覆盖重写，而且带着default关键字*/
 public class Demo01Relations {
+    public static void main(String[] args) {
+        MyInterfaceImpl impl = new MyInterfaceImpl();
+        impl.method();
+        impl.methodDefault();
+    }
 }
