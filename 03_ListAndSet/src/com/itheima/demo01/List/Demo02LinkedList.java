@@ -36,7 +36,7 @@ public class Demo02LinkedList {
         //获取并移除
         System.out.println(strings.removeFirst());
         System.out.println(strings.removeLast());
-        System.out.println(strings.pop());
+        System.out.println(strings.pop());//pop相当于removeFirst
         System.out.println(strings);
 
         //判断是否为空
