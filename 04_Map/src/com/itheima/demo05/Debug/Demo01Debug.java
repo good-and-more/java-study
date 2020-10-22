@@ -15,5 +15,16 @@ public class Demo01Debug {
         for (int i = 0; i < 3; i++) {
             System.out.println(i);
         }
+        print();
+
     }
+
+    private static void print() {
+        System.out.println("helloworld");
+        System.out.println("helloworld2");
+        System.out.println("helloworld3");
+        System.out.println("helloworld4");
+    }
+
+
 }
