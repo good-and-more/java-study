@@ -12,7 +12,7 @@ package com.itheima.demo01.Exception;
 public class Demo03Throw {
     public static void main(String[] args) {
         int[] arr = new int[3];
-        int e = getElement(arr,3);
+        int e = getElement(arr,2);
         System.out.println(e);
     }
 

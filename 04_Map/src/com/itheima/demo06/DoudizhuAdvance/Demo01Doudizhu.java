@@ -9,8 +9,10 @@ public class Demo01Doudizhu {
         * 1.先准备牌
         * */
         //因为已知需要添加元素，且添加后不再增删，额可以使用of，但是是JDK1.9之后的内容，现在无法使用
-        List<String> colors = Arrays.asList("♠","♥","♣","♦");
-        List<String> numbers = Arrays.asList("2","A","K","Q","j","10","9","8","7","6","5","4","3");
+        //List<String> colors = Arrays.asList("♠","♥","♣","♦");
+        List<String> colors = List.of("♠","♥","♣","♦");
+        //List<String> numbers = Arrays.asList("2","A","K","Q","j","10","9","8","7","6","5","4","3");
+        List<String> numbers = List.of("2","A","K","Q","j","10","9","8","7","6","5","4","3");
         List<Integer> pokerKey = new ArrayList<>();
         Map<Integer, String> poker = new HashMap<>();
         int key = 0;
