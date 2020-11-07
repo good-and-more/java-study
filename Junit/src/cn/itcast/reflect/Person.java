@@ -44,4 +44,12 @@ public class Person {
                 ", d='" + d + '\'' +
                 '}';
     }
+
+    public void eat(){
+        System.out.println("吃东西");
+    };
+
+    public void eat(String food){
+        System.out.println(food);
+    };
 }
