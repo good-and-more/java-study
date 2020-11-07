@@ -38,6 +38,10 @@ public class Person {
         return "Person{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", a='" + a + '\'' +
+                ", b='" + b + '\'' +
+                ", c='" + c + '\'' +
+                ", d='" + d + '\'' +
                 '}';
     }
 }

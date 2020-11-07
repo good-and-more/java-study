@@ -12,5 +12,12 @@ public class Demo02Reflect {
         }
 
         Field a = personClass.getField("a");
+
+        //getDeclaredFields():获取所有的成员变量，不考虑修饰符
+        Field[] declaredFields = personClass.getDeclaredFields();
+        for (Field declaredField : declaredFields) {
+            System.out.println(declaredField);
+        }
+        Field d = personClass.getDeclaredField("d");
     }
 }
