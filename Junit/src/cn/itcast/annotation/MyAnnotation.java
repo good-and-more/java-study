@@ -5,10 +5,10 @@ public @interface MyAnnotation {
 
     int value();//基本数据类型
     public abstract String name() default "张三";//字符串
-//    Person per();//枚举
-//    MyAnno2 anno2();//注解
-//    String[] strs();//以上类型的数组
-//    Worker w();//会报错，只能上述类型，不能自定义返回类型
+    Person per();//枚举
+    MyAnno2 anno2();//注解
+    String[] strs();//以上类型的数组
+    Worker w();//会报错，只能上述类型，不能自定义返回类型
 
 
 }
