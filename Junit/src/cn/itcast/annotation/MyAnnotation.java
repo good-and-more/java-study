@@ -8,7 +8,7 @@ public @interface MyAnnotation {
     Person per();//枚举
     MyAnno2 anno2();//注解
     String[] strs();//以上类型的数组
-    Worker w();//会报错，只能上述类型，不能自定义返回类型
+    //Worker w();//会报错，只能上述类型，不能自定义返回类型
 
 
 }
