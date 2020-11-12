@@ -22,7 +22,6 @@ public class AnnotationDemo02 {
         //新版本，替代show1方法
     }
 
-    @MyAnnotation
     public void show3(){
         //自定义注解
     }

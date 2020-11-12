@@ -14,3 +14,14 @@ public @interface Pro {
     public abstract String className();
     public abstract String methodName();
 }
+/*
+* public class ProImpl implements Pro{
+*   public String className(){
+*       return "cn.itcast.annotation.Demo01";
+*   }
+*
+*   public String className(){
+*       return "show";
+*   }
+* }
+* */
